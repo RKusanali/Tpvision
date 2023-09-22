@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 5884787394779929639}
   - component: {fileID: 6750873613465068298}
   - component: {fileID: -7586982452978094798}
+  - component: {fileID: 4233461439671054389}
+  - component: {fileID: 8088176287623243950}
   m_Layer: 0
   m_Name: Catbot
   m_TagString: Untagged
@@ -69,6 +71,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mRange: 25
+--- !u!65 &4233461439671054389
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007098850130762225}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8088176287623243950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007098850130762225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e02b46f766e0824cb0e7d31cad4388d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionSound: {fileID: 0}
+  fx: {fileID: 100010, guid: 031d08f52af1daa4f929b85221519426, type: 3}
 --- !u!1 &2796215027491488761
 GameObject:
   m_ObjectHideFlags: 0

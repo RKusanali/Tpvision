@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/DragonHouse.unity
+    guid: d1213588f1a543046af8e7ae964b6840
+  - enabled: 1
+    path: Assets/Scenes/SceneMonde.unity
+    guid: b94bcc92afe3e754c8e07fe50537d11d
   m_configObjects: {}
