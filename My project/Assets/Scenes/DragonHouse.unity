@@ -1553,7 +1553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragon: {fileID: 1748994899}
-  catBotsToDestroy: 10
+  nininum_dist: 10
   playerTransform: {fileID: 924869554}
 --- !u!1 &1335074913 stripped
 GameObject:

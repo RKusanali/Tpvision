@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 public class MondetoDragon : MonoBehaviour
 {
     private string nextSceneName = "DragonHouse";
-    public GameObject lac;
+    public GameObject item;
     public int setInterval = 70;
-    public float ninimun_distance = 10.0f;
+    public float ninimun_distance = 2.0f;
     public Transform playerTransform;
     UIBehaviour uiBehaviour;
 
@@ -21,7 +21,7 @@ public class MondetoDragon : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if ((setInterval>uiBehaviour.gettime()) && (Vector3.Distance(playerTransform.position, lac.transform.position) < ninimun_distance))
+        if ((setInterval>uiBehaviour.gettime()) && (Vector3.Distance(playerTransform.position, item.transform.position) < ninimun_distance))
         {
             SceneManager.LoadScene(nextSceneName);
         }
